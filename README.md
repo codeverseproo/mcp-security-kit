@@ -61,6 +61,21 @@ mcp = with_host_validation(mcp, validator)
 
 ## Installation
 
+**From Source (Current):**
+```bash
+# Clone and install TypeScript
+git clone https://github.com/codeverseproo/mcp-security-kit.git
+cd mcp-security-kit/ts-src
+npm install
+npm run build
+
+# Clone and install Python  
+git clone https://github.com/codeverseproo/mcp-security-kit.git
+cd mcp-security-kit/py-src
+pip install -e .
+```
+
+**From Package Registry (Coming Soon):**
 ```bash
 # TypeScript
 npm install @beyondit/mcp-security
